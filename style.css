@@ -17,6 +17,7 @@ body{
     font-family: 'Monserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
+    padding-bottom: 10px;
   }
   h3 {
     color: #676FA3;
@@ -24,6 +25,21 @@ body{
   }
   a {
     color: #676FA3;
+    font-family: 'Monserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  a:hover {
+      color: #838dc9;
+  }
+  p {
+      line-height: 2;
+  }
+  hr {
+      border: dotted #d3d3d3 6px;
+      border-bottom: none;
+      margin: 100px auto;
+      width: 4%;
   }
 
   /**********CLASSES**********/
@@ -35,16 +51,17 @@ body{
     
   }
   .middle-container {
-      padding-top: 15px;
+      margin: 100px 0;
   
   }
   .middle-container h2{
       color: #676FA3;
   }
- /* .bottom-container {
-    
-  }
-*/
+ .bottom-container {
+     background-color: #CDDEFF;
+     padding: 50px 0 20px;
+ }
+
 .top-cloud{
     position: absolute;
     right: 300px;
@@ -56,7 +73,7 @@ body{
 }
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 .skill-row {
@@ -78,6 +95,37 @@ body{
 .learn-img {
     width: 25%;
 }
+.contact-message {
+    margin: 40px auto 60px;
+    width: 40%;
+}
+.btn {
+    background: #fc8a8a;
+    background-image: -webkit-linear-gradient(top, #fc8a8a, #FF5959);
+    background-image: -moz-linear-gradient(top, #fc8a8a, #FF5959);
+    background-image: -ms-linear-gradient(top, #fc8a8a, #FF5959);
+    background-image: -o-linear-gradient(top, #fc8a8a, #FF5959);
+    background-image: linear-gradient(to bottom, #fc8a8a, #FF5959);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Monserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #FF5959;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .copywrite {
+      color: #838dc9;
+      font-size: 0.75rem;
+      padding: 20px 0;
+  }
   /**********IDs**********/
 
 #prof-pic{
@@ -85,4 +133,8 @@ body{
     max-width: 400px;
     min-width: 150px;
     border-radius: 100%;
+}
+#intro {
+    margin: auto;
+    width: 85%;
 }
