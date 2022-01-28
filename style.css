@@ -76,6 +76,10 @@ body{
     left: 250px;
     bottom: 300px;
 }
+.building {
+    height: 350px;
+    padding-top: 35px;
+}
 .skill-row {
     line-height: 2;
     margin: 100px auto;
